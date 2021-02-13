@@ -16,8 +16,12 @@ Anaconda сразу содержит в себе среду разработки
 > jupyter notebook
 ```
 ## Установка необходимых пакетов
-Для работы нейросети необходимы следующие пакеты:
-- tensorflow
-- keras_spiking
-Вспомогательный пакет для считывания датасета:
-- pandas
+Обычно Anaconda уже после установки имеет в себе все необходимые для
+запуска пакеты кроме TensorFlow. Установить TensorFlow можно при помощи команды
+```
+> pip install tensorflow
+```
+## Запуск нейросети
+Данный код работает с датасетом IOT NETWORK INTRUSION DATASET, архив с которым **iot_intrusion_dataset.zip**
+по ссылке <https://ieee-dataport.org/open-access/iot-network-intrusion-dataset>. Там же можно
+найти файл **dataset_description.xlsx**, который понадобится для фильтрации пакетов.
