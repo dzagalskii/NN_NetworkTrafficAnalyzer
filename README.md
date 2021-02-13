@@ -7,8 +7,12 @@
 Anaconda сразу содержит в себе среду разработки Jupyter.
 Если же Jupyter не установлен в Anaconda, установить можно
 при помощи следующей команды:
-***> conda install jupyter***
+```
+> conda install jupyter
+```
 
 Для запуска Jupyter Notebook можно использовать следущую команду:
-***> jupyter notebook***
+```
+> jupyter notebook
+```
 
